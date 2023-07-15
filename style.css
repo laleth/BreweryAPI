@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    background: rgb(195,194,18);
+    background: linear-gradient(43deg, rgba(195,194,18,1) 0%, rgba(255,149,0,1) 100%, rgba(255,149,0,1) 100%);
+  }
+  
+
+input{
+    width: 50%;
+}
+
+
+.head{
+    justify-content: center;
+    align-items: center;
+    color: lightgrey;
+    display: flex;
+    font-family: Verdana;
+    font-size: 70px;
+    padding-bottom: 50px;
+}
+
+  div.list,ul{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color:darkslategray;
+  }
+  
