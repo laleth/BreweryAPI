@@ -28,7 +28,7 @@ async function fetchBreweryData() {
    
     filteredBreweries.forEach((brewery) => {
       const listItem = document.createElement('li');
-      listItem.textContent = `${brewery.name}, ${brewery.brewery_type}, ${brewery.address_1}, ${brewery.website_url}, ${brewery.phone}`;
+      listItem.textContent = `Name : ${brewery.name},Type : ${brewery.brewery_type},Address : ${brewery.address_1}, Website url : ${brewery.website_url}, Phone : ${brewery.phone}`;
       breweryList.appendChild(listItem);
     });
   }
